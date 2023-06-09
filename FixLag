@@ -1,0 +1,5 @@
+if getgenv().FixLag then
+repeat task.wait()
+game:GetService("ReplicatedStorage").Effect.Container:Destroy
+until getgenv.FIxLag == false
+end
